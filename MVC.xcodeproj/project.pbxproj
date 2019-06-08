@@ -13,6 +13,8 @@
 		EB2C97AF22ABFD73005FF71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2C97AE22ABFD73005FF71C /* Assets.xcassets */; };
 		EB2C97B222ABFD73005FF71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2C97B022ABFD73005FF71C /* LaunchScreen.storyboard */; };
 		EB2C97BE22AC052C005FF71C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97BD22AC052C005FF71C /* CustomView.swift */; };
+		EB2C97C022AC0944005FF71C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97BF22AC0944005FF71C /* Movie.swift */; };
+		EB2C97C322AC0A5F005FF71C /* Incredibles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C97C222AC0A5F005FF71C /* Incredibles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB2C97B122ABFD73005FF71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB2C97B322ABFD73005FF71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB2C97BD22AC052C005FF71C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		EB2C97BF22AC0944005FF71C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EB2C97C222AC0A5F005FF71C /* Incredibles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Incredibles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		EB2C97A622ABFD71005FF71C /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				EB2C97C122AC0A2F005FF71C /* Helpers */,
 				EB2C97BC22ABFEC6005FF71C /* Controller */,
 				EB2C97BB22ABFEBE005FF71C /* View */,
 				EB2C97BA22ABFEAD005FF71C /* Model */,
@@ -71,6 +76,7 @@
 		EB2C97BA22ABFEAD005FF71C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB2C97BF22AC0944005FF71C /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				EB2C97A922ABFD71005FF71C /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		EB2C97C122AC0A2F005FF71C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C97C222AC0A5F005FF71C /* Incredibles.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 			files = (
 				EB2C97BE22AC052C005FF71C /* CustomView.swift in Sources */,
 				EB2C97AA22ABFD71005FF71C /* ViewController.swift in Sources */,
+				EB2C97C322AC0A5F005FF71C /* Incredibles.swift in Sources */,
+				EB2C97C022AC0944005FF71C /* Movie.swift in Sources */,
 				EB2C97A822ABFD71005FF71C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
