@@ -54,14 +54,38 @@
 		EB2C97A622ABFD71005FF71C /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				EB2C97BC22ABFEC6005FF71C /* Controller */,
+				EB2C97BB22ABFEBE005FF71C /* View */,
+				EB2C97BA22ABFEAD005FF71C /* Model */,
 				EB2C97A722ABFD71005FF71C /* AppDelegate.swift */,
-				EB2C97A922ABFD71005FF71C /* ViewController.swift */,
 				EB2C97AB22ABFD71005FF71C /* Main.storyboard */,
 				EB2C97AE22ABFD73005FF71C /* Assets.xcassets */,
 				EB2C97B022ABFD73005FF71C /* LaunchScreen.storyboard */,
 				EB2C97B322ABFD73005FF71C /* Info.plist */,
 			);
 			path = MVC;
+			sourceTree = "<group>";
+		};
+		EB2C97BA22ABFEAD005FF71C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB2C97BB22ABFEBE005FF71C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB2C97BC22ABFEC6005FF71C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C97A922ABFD71005FF71C /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
